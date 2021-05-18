@@ -8,6 +8,16 @@ This is broken up into 4 parts and in the end we're looking a process that will 
 
 ![process](./src/main/resources/images/laffProcessDiagram.png)
 
+## What will you learn?
+* How to setup a spring boot project with Camunda
+* Understanding the components of the project
+* How to create forms and link them to user tasks
+* How to write java classes that can be run by Service Tasks
+* How to configure an XOR gateway based on process data
+* How to configure non-interupting timer events
+* How to trigger and catch BPMN errors thrown from Java Code
+
+
 ### Part One: Lafayette's Departure 
 <span style="color:Orange">Using User tasks and Camunda Forms</span>.
 ![LafayetteV1](./src/main/resources/images/LafayetteV1.png)
