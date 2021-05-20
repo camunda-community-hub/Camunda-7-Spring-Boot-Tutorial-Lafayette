@@ -14,7 +14,7 @@ This is broken up into 4 parts and in the end we're looking a process that will 
 * How to create forms and link them to user tasks
 * How to write java classes that can be run by Service Tasks
 * How to configure an XOR gateway based on process data
-* How to configure non-interupting timer events
+* How to configure non-interrupting timer events
 * How to trigger and catch BPMN errors thrown from Java Code
 
 

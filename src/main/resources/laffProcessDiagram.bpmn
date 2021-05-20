@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_10wn1z1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="4.8.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.15.0">
   <bpmn:process id="MoneyTest" name="MoneyTest" isExecutable="false">
-    <bpmn:startEvent id="StartEvent_1" name="Lafayette Wants to be involved in a revolution">
+    <bpmn:startEvent id="StartEvent_1" name="Lafayette wants to be involved in a Revolution">
       <bpmn:outgoing>Flow_17qlkln</bpmn:outgoing>
     </bpmn:startEvent>
     <bpmn:endEvent id="Event_0mqqzc0" name="Lafayette has helped a revolution">
@@ -160,7 +160,7 @@
       <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
         <dc:Bounds x="179" y="419" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="153" y="462" width="88" height="40" />
+          <dc:Bounds x="152" y="462" width="90" height="40" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0mqqzc0_di" bpmnElement="Event_0mqqzc0" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
@@ -172,6 +172,9 @@
       <bpmndi:BPMNShape id="Activity_0ioy0rd_di" bpmnElement="Activity_1rwonvw" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
         <dc:Bounds x="260" y="397" width="100" height="80" />
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_07htooq_di" bpmnElement="Activity_1b0shcz" bioc:stroke="rgb(251, 140, 0)" bioc:fill="rgb(255, 224, 178)">
+        <dc:Bounds x="570" y="260" width="100" height="80" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_0q0663i_di" bpmnElement="Gateway_0q0663i" isMarkerVisible="true" bioc:stroke="rgb(251, 140, 0)" bioc:fill="rgb(255, 224, 178)">
         <dc:Bounds x="415" y="412" width="50" height="50" />
         <bpmndi:BPMNLabel>
@@ -180,6 +183,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_0miogkt_di" bpmnElement="Gateway_0miogkt" isMarkerVisible="true" bioc:stroke="rgb(251, 140, 0)" bioc:fill="rgb(255, 224, 178)">
         <dc:Bounds x="775" y="412" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1bvmi8j_di" bpmnElement="Activity_1tj82a3" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
+        <dc:Bounds x="570" y="397" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0wrkg2i_di" bpmnElement="Activity_0ob0mvd" bioc:stroke="rgb(67, 160, 71)" bioc:fill="rgb(200, 230, 201)">
         <dc:Bounds x="1030" y="240" width="100" height="80" />
@@ -192,6 +198,12 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_1dtj4fc_di" bpmnElement="Activity_0nkz657" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
         <dc:Bounds x="890" y="397" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0yg30sh_di" bpmnElement="Event_0yg30sh" bioc:stroke="rgb(229, 57, 53)" bioc:fill="rgb(255, 205, 210)">
+        <dc:Bounds x="872" y="152" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1nil37w_di" bpmnElement="Activity_1h8ly8v" bioc:stroke="rgb(229, 57, 53)" bioc:fill="rgb(255, 205, 210)">
+        <dc:Bounds x="700" y="130" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_1x2fv7c_di" bpmnElement="Event_1x2fv7c" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
         <dc:Bounds x="212" y="82" width="36" height="36" />
@@ -217,28 +229,16 @@
           <dc:Bounds x="476" y="125" width="48" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1bvmi8j_di" bpmnElement="Activity_1tj82a3" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
-        <dc:Bounds x="570" y="397" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1nil37w_di" bpmnElement="Activity_1h8ly8v" bioc:stroke="rgb(229, 57, 53)" bioc:fill="rgb(255, 205, 210)">
-        <dc:Bounds x="700" y="130" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Event_0yg30sh_di" bpmnElement="Event_0yg30sh" bioc:stroke="rgb(229, 57, 53)" bioc:fill="rgb(255, 205, 210)">
-        <dc:Bounds x="872" y="152" width="36" height="36" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_07htooq_di" bpmnElement="Activity_1b0shcz" bioc:stroke="rgb(251, 140, 0)" bioc:fill="rgb(255, 224, 178)">
-        <dc:Bounds x="570" y="260" width="100" height="80" />
+      <bpmndi:BPMNShape id="Event_0bsn9rm_di" bpmnElement="Event_1yjcts1" bioc:stroke="rgb(229, 57, 53)" bioc:fill="rgb(255, 205, 210)">
+        <dc:Bounds x="612" y="242" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="542" y="233" width="76" height="14" />
+        </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_11hj7vb_di" bpmnElement="Event_17irehm" bioc:stroke="rgb(67, 160, 71)" bioc:fill="rgb(200, 230, 201)">
         <dc:Bounds x="932" y="379" width="36" height="36" />
         <bpmndi:BPMNLabel>
           <dc:Bounds x="883" y="363" width="53" height="14" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Event_0bsn9rm_di" bpmnElement="Event_1yjcts1" bioc:stroke="rgb(229, 57, 53)" bioc:fill="rgb(255, 205, 210)">
-        <dc:Bounds x="612" y="242" width="36" height="36" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="542" y="233" width="76" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
