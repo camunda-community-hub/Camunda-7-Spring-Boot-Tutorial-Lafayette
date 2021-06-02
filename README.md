@@ -1,7 +1,9 @@
 # Camunda Spring Boot Tutorial Lafayette
 This project is used as part of a video tutorial in order to show how you can use various features of Camunda in a spring boot application
+
 ![Video Tutorial Badge](https://img.shields.io/badge/Tutorial%20Reference%20Project-Tutorials%20for%20getting%20started%20with%20Camunda-%2338A3E1)
-![](https://img.shields.io/badge/Educational%20Tooling-Project%20for%20getting%20started%20with%20Camunda%20for%20educators-%239F2B68)
+<img src="https://img.shields.io/badge/Camunda%20DevRel%20Project-Created%20by%20the%20Camunda%20Developer%20Relations%20team-0Ba7B9">
+
 ## What is this all about?
 When creating example projects I like to ensure that the examples I use are as close to real world use cases as possible and so in this example we'll be building a process in which we can help one of my favourite historical figures [Gilbert du Motier, Marquis de Lafayette](https://en.wikipedia.org/wiki/Gilbert_du_Motier,_Marquis_de_Lafayette) to do what he does best - get involved in revolutions! 
 
