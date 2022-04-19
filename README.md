@@ -1,5 +1,6 @@
-# Camunda Spring Boot Tutorial Lafayette
-This project is used as part of a video tutorial in order to show how you can use various features of Camunda in a spring boot application
+# Camunda Platform 7 Spring Boot Tutorial Lafayette
+This project is used as part of a video tutorial in order to show how you can use various features of Camunda 7 in a spring boot application.
+Be aware that this is specific to Camunda 7 and concepts described here are not compatible with Camunda Platform 8.
 
 
 ![Video Tutorial Badge](https://img.shields.io/badge/Tutorial%20Reference%20Project-Tutorials%20for%20getting%20started%20with%20Camunda-%2338A3E1)
